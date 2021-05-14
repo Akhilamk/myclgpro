@@ -18,3 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::view('mycollege','college');
+Route::view('college','copyclg');
+Route::view('myclg','democlg');

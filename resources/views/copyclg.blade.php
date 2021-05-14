@@ -48,65 +48,72 @@
      
      <!-- <next section> -->
        <div class="row">
-           <div class="col-lg-7 col-sm-12 col-md-12 col-xs-12 " style="height: 60px; background-color: white;" > &nbsp;<b>BRILLIANCE<img src="{{url('images/clglog.jpg')}}" alt="" height="50px"  style="padding-left: 10px; margin-top: 3px;">&nbsp;&nbsp;ACADEMY</b></div>
-           <div class="col-lg-5 col-sm-12 col-md-12 col-xs-12 d-none d-lg-block" style="height: 60px; background-color: white;" ><button class="btn btn-light" style="margin-top: 20px; margin-left: 350px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: small;"><b>Register/Login</b> </button> </div>
+           <div class="col-lg-7 col-sm-12 col-md-12 col-xs-12 " style="height: 70px; background-color: white;" > &nbsp;<b>BRILLIANCE<img src="{{url('images/clglog.jpg')}}" alt="" height="60px"  style="padding-left: 10px; margin-top: 3px;">&nbsp;&nbsp;ACADEMY</b></div>
+           <div class="col-lg-5 col-sm-12 col-md-12 col-xs-12 d-none d-lg-block" style="height: 70px; background-color: white;" ><button class="btn btn-light" style="margin-top: 20px; margin-left: 350px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: small;"><b>Register/Login</b> </button> </div>
           </div>
           <!-- <third section Navbar> -->
            <div class="row">
-             <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12"  style="height: 50px; background-color: rgb(233, 235, 230);">
-              <div class="main-nav-wrapper">
-                  <nav class="main-nav navbar navbar-expand-md" role="navigation" style="background-image: linear-gradient(rgb(11, 134, 216),rgb(10, 103, 209));">    
-                      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                           <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                      </button><!--//nav-toggle-->
-                                
-                      <div class="navbar-collapse collapse" id="navbar-collapse">
-                          <ul class="nav navbar-nav">
-                              <li class="nav-item"><a class="active nav-link" href="index.html" style="font-family: cursive; color: cornsilk;">HOME</a></li>
-                              <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: cursive; color: cornsilk;">COURSES <i class="fas fa-angle-down"></i></a>
-                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <a class="dropdown-item" href="courses.html">Course List</a>
-                                      <a class="dropdown-item" href="course-1.html"></a>
-                                      <a class="dropdown-item" href="course-2.html"></a>                
-                                  </div><!--//dropdown-menu-->
-                              </li>
-                              <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: cursive; color: cornsilk;">NEWS <i class="fas fa-angle-down"></i></a>
-                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
-                                      <a class="dropdown-item" href="news.html">News List</a>
-                                      <a class="dropdown-item" href="news-single.html">news  with images</a>   
-                                      <a class="dropdown-item" href="news-single-2.html"> News with video</a>         
-                                  </div>
-                              </li>
-                              <li class="nav-item"><a class="nav-link" href="events.html" style="font-family: cursive; color: cornsilk;">EVENTS</a></li>
-                              <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#" style="font-family: cursive; color: cornsilk;">PAGES <i class="fas fa-angle-down"></i></a>
-                                  <div class="dropdown-menu" style="font-style: italic;">
-                                      <a class="dropdown-item" href="about.html">About</a>
-                                      <a class="dropdown-item" href="jobs.html">Jobs</a>    
-                                      <a class="dropdown-item" href="gallery.html">Gallery</a>                                      <a class="dropdown-item" href="gallery-album.html">Single Gallery</a>
-                                      <a class="dropdown-item" href="faq.html">FAQULTY</a>                                
-                                      <a class="dropdown-item" href="privacy.html">Privacy Policy</a> 
-                                      <a class="dropdown-item" href="terms-and-conditions.html">Terms & Conditions</a>                   
-                                  </div><!--//dropdown-menu-->
-                              </li><!--//dropdown-->
-                              
-                              <li class="nav-item"><a class="nav-link" href="contact.html" style="font-family: cursive; color: cornsilk;">CONTACT</a></li>
-                          </ul><!--//nav-->
-                      </div><!--//navabr-collapse-->
+             <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12"  style="height: 60px; background-color: rgb(233, 235, 230);">
+              <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="background-image: linear-gradient(rgb(99, 147, 236),rgb(76, 121, 204));">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#"><b style="font-family:cursive; color: cornsilk;">HOME</b></a>
+                  </li>
+                  <!-- <dropdwnmen course> -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-1"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b style="font-family: cursive; color: cornsilk ">COURSES</b></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="courses.html">Course List</a>
+                        <a class="dropdown-item" href="course-1.html"> </a>
+                        <a class="dropdown-item" href="course-2.html"></a>                
+                    </div>
+                </li><!--//dropdown-menu-->
+
+                <!-- <dropdwnmen news> -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b style="font-family: cursive; color: cornsilk;">NEWS</b>  <i class="fas fa-angle-down"></i></a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
+                      <a class="dropdown-item" href="news.html">News List</a>
+                      <a class="dropdown-item" href="news-1.html"> </a>   
+                      <a class="dropdown-item" href="news-2.html"></a>         
+                  </div>
+              </li><!--//dropdown-menu-->
                   
-                </nav><!--//main-nav-->
-           
-            </div><!--//main-nav-container-->
-     
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#"><b style="font-family:cursive;color: cornsilk">EVENTS</b></a>
+                  </li>
+                   <!-- <dropdwnmen pages> -->
+                 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#"><b style="font-family: cursive;color: cornsilk;">PAGES</b>  <i class="fas fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="about.html">About</a>
+                            <a class="dropdown-item" href="jobs.html">Jobs</a>                           
+                            <a class="dropdown-item" href="gallery.html">Gallery (3 columns)</a>
+                            <a class="dropdown-item" href="gallery-album.html">Single Gallery</a>               
+                            <a class="dropdown-item" href="faq.html">FAQULTY</a>                                
+                            <a class="dropdown-item" href="privacy.html">Privacy Policy</a> 
+                            <a class="dropdown-item" href="terms-and-conditions.html">Terms & Conditions</a>                   
+                        </div><!--//dropdown-menu-->
+                    </li><!--//dropdown-->
+                     <!--//dropdown-menu-->
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#"><b style="font-family:cursive;color: cornsilk">CONTACT</b></a>
+                  </li>
+                   </ul>
+                  
+              </div>
+              
+            </nav>
           </div>
+          
            </div>
-         <!-- <third section slider image> -->
-            <div class="row">
+        <!-- <third section slider image> -->
+           <div class="row">
              <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" style="height: 500px; background-color: rgb(233, 235, 230);">
               <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -126,7 +133,7 @@
                 <div class="carousel-item">
                   <img src="{{url('images/web.jpeg')}}" class="d-block w-100" alt="..."style="height: 500px; width: 300;">
                   <div class="carousel-caption d-none d-md-block">
-                    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: blanchedalmond; padding-bottom: 350px;">We Ensure better education for a better world</h1>
+                    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: blanchedalmond; padding-bottom: 380px;">We Ensure better education for a better world</h1>
                     
                   </div>
                 </div>
@@ -155,9 +162,23 @@
               </a>
            </div><br>
 
-
-        
+         </div>
            
+   </div><br>
+   <div class="content container">
+   <section class="p-3 mb-2 bg-secondary text-white" style="height: 150px; width: 1100px; text-align: justify; ">     
+    <div class="row">    
+        <div class="col-lg-9  col-sm-12 col-md-12 col-xs-12">
+        <h1 class="section-heading" style="font-family: monospace;">Why Brilliance</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos quidem odio similique at libero, fuga vel minus sit ipsam dignissimos rerum enim quis dolorum eveniet beatae maiores odit quo!</p>   
+        </div>  
+        <div class="col-lg-3 col-sm-12 col-md-12 col-xs-12" style="margin-top: 50px;">
+            <a class="btn btn-primary btn-lg" href="#"><b style="color: rgb(174, 178, 184); font-size: small;">Apply Now</b> </a>  
+        </div>
+    </div><!--//row-->
+  </section><!--//promo-->
+
+</div>
    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
