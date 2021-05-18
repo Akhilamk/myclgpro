@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 Route::view('mycollege','college');
 Route::view('college','copyclg');
-Route::view('myclg','democlg');
+Route::view('mycollege','brilliance');

@@ -15,9 +15,7 @@
    <div class="container-fluid">
      <!-- <topsection of the page> -->
     <div class="row">
-       <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 d-lg-block d-sm-block" style="height: 50px; background-color: rgb(34, 34, 104);">
-        <!-- Add font awesome icons -->
-        <!-- <fb> -->
+       <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  " style="height: 50px; background-color: rgb(34, 34, 104);">
           <div style="display:flex;flex-wrap:wrap"><a href="true" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:32px;height:32px;padding:2px;margin:5px;color:#e5e1e8;border-radius:50%;background-color:#052d59;"><svg class="niftybutton-facebook" style="display:block;fill:currentColor" data-tag="fac" data-name="Facebook" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
             <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
         </svg></a>
@@ -168,7 +166,7 @@
    <div class="content container">
    <section class="p-3 mb-2 bg-secondary text-white" style="height: 150px; width: 1100px; text-align: justify; ">     
     <div class="row">    
-        <div class="col-lg-9  col-sm-12 col-md-12 col-xs-12">
+        <div class="col-lg-9 col-sm-12 col-md-12 col-xs-12">
         <h1 class="section-heading" style="font-family: monospace;">Why Brilliance</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos quidem odio similique at libero, fuga vel minus sit ipsam dignissimos rerum enim quis dolorum eveniet beatae maiores odit quo!</p>   
         </div>  
