@@ -104,17 +104,17 @@
              <div class="row">
                <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12"  style="height: 300px; background-color: rgb(121, 186, 247);">
                 
-                  <h3 class="heading" style="text-align: center; margin-top: 40px; font-family: fantasy;"><img src="teachers.png" style="width: 40px;" alt=""><br><br> Special Education</h3>
+                  <h3 class="heading" style="text-align: center; margin-top: 40px; font-family: fantasy;"><img src="{{url('images/edulogo.png')}}" style="width: 40px;" alt=""><br><br> Special Education</h3>
                   <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nesciunt ea autem suscipit in explicabo repudiandae provident, omnis ratione fugiat, praesentium ipsum. Facere itaque odit quos? Cum tempora unde perferendis.</p>
                  
               </div>
-               <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12" style="height: 300px; background-color: rgb(143, 153, 155);"><h3 class="heading" style="text-align: center; margin-top: 40px; font-family: fantasy;"><img src="{{url('images/teachers.png')}}" style="width: 40px;" alt=""><br><br> Certified Teachers</h3>
+               <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12" style="height: 300px; background-color: rgb(143, 153, 155);"><h3 class="heading" style="text-align: center; margin-top: 40px; font-family: fantasy;"><img src="{{url('images/tea.png')}}" style="width: 40px;" alt=""><br><br> Certified Teachers</h3>
                 <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex optio animi, corporis accusantium voluptatum possimus eveniet ducimus autem laboriosam expedita eligendi dolore atque rem reprehenderit voluptates velit omnis nihil soluta.</p>
                </div>
-               <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12" style="height: 300px; background-color: rgb(121, 186, 247);"><h3 class="heading" style="text-align: center; margin-top: 40px; font-family: fantasy;"><img src="teachers.png" style="width: 40px;" alt=""><br><br> Books & Library</h3>
+               <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12" style="height: 300px; background-color: rgb(121, 186, 247);"><h3 class="heading" style="text-align: center; margin-top: 40px; font-family: fantasy;"><img src="{{url('images/libru.png')}}" style="width: 40px;" alt=""><br><br> Books & Library</h3>
                 <p style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non maiores autem possimus debitis dicta voluptatum sapiente excepturi blanditiis corrupti voluptatibus, voluptas id, aliquam obcaecati aperiam optio eaque, itaque quos exercitationem.</p>
                </div>
-               <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12" style="height: 300px; background-color: rgb(143, 153, 155);"><h3 class="heading" style="text-align: center; margin-top: 40px; font-family: fantasy;"><img src="teachers.png" style="width: 40px;" alt=""><br><br> Academic Activities</h3>
+               <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12" style="height: 300px; background-color: rgb(143, 153, 155);"><h3 class="heading" style="text-align: center; margin-top: 40px; font-family: fantasy;"><img src="{{url('images/academic.png')}}" style="width: 40px;" alt=""><br><br> Academic Activities</h3>
                 <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quasi natus nulla! Dolores magnam veritatis cum dolorem consequuntur provident officiis dicta ipsam quas, voluptatem voluptate nisi asperiores aspernatur quo beatae!</p>
                </div>
              </div>
