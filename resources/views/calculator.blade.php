@@ -7,7 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{url('calc.css')}}">
+  
+  <style>
+      td {
+    text-align: center;
+}
+
+button {
+    width: 90px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+}
+
+input {
+    background-color: rgb(56, 52, 52);
+    width: 380px;
+    color: white;
+}
+  </style>
 </head>
 
 <body>
