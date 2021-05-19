@@ -14,10 +14,10 @@
    <div class="container-fluid">
      <!-- <top section> -->
        <div class="row">
-           <div class="col-lg-4 col-sm-12 col-xs-12 col-md-12" style="height: 90px; background-color: white;"><img src="{{url('images/brillions.png')}}" style="height:60px; margin-top: 10px; margin-left: 35px; " alt=""><img src="{{url('images/grad.jpg')}}" alt="" style="height: 40px;"></div>
-           <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12 d-none d-lg-block" style="height: 90px; background-color:white;"><img src="{{url('images/emaillogo.png')}}" style="margin-top: 20px; height: 15px;" alt="">&nbsp;&nbsp;&nbsp;<b style="font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 100px;">Email</b> <br><span style="color: rgb(24, 24, 27); margin-left: 30px;font-family: Georgia, 'Times New Roman', Times, serif;">Youremail@gmail.com</span> </div>
-           <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12 d-none d-lg-block" style="height: 90px; background-color: white;"><img src="{{url('images/calllogo.png')}}" style="margin-top: 20px; height: 20px;" alt="">&nbsp;&nbsp;&nbsp;<b style="font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 100px;">Call</b> <br><span style="color: rgb(24, 24, 27); margin-left: 30px;"><span style="font-family: Georgia, 'Times New Roman', Times, serif;">Call Us:</span> 7845768672</span></div>
-           <div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 d-none d-l" style="height: 90px; background-color: white;"><button class="btn btn-lg btn-primary" style="margin-top: 30px; height: 50px; background-color: rgb(245, 92, 37);">Apply Now</button></div>
+           <div class="col-lg-4 col-sm-12 col-xs-12 col-md-12" style="height: 90px; background-color: white;"><img src="{{url('images/brillions.png')}}" style="height:60px; margin-top: 10px; margin-left: 50px; " alt=""><img src="{{url('images/grad.jpg')}}" alt="" style="height: 40px;"></div>
+           <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12 " style="height: 90px; background-color:white;"><img src="{{url('images/emaillogo.png')}}" style="margin-top: 20px; height: 15px;" alt="">&nbsp;&nbsp;&nbsp;<b style="font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 100px;">Email</b> <br><span style="color: rgb(24, 24, 27); margin-left: 30px;font-family: Georgia, 'Times New Roman', Times, serif;">Youremail@gmail.com</span> </div>
+           <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12 " style="height: 90px; background-color: white;"><img src="{{url('images/calllogo.png')}}" style="margin-top: 20px; height: 20px;" alt="">&nbsp;&nbsp;&nbsp;<b style="font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 100px;">Call</b> <br><span style="color: rgb(24, 24, 27); margin-left: 30px;"><span style="font-family: Georgia, 'Times New Roman', Times, serif;">Call Us:</span> 7845768672</span></div>
+           <div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 " style="height: 90px; background-color: white;"><button class="btn btn-lg btn-primary" style="margin-top: 20px; height: 35px; background-color: rgb(245, 92, 37); font-size: small; border: none; margin-left: 50px;">Apply Now</button></div>
            
        </div><!-- //<closing top section> -->
 
@@ -79,10 +79,10 @@
               <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" >
-                    <img src="{{url('images/first.png')}}" class="d-block w-100"  alt="..." style="  height: 400px;"> 
+                    <img src="{{url('images/web1.jpg')}}" class="d-block w-100"  alt="..." style="  height: 400px;"> 
                     </div>
                   <div class="carousel-item">
-                    <img src="{{url('images/second.jpg')}}" class="d-block w-100" alt="..." style=" height: 400px;">
+                    <img src="{{url('images/cover.jpg')}}" class="d-block w-100" alt="..." style=" height: 400px;">
                   </div>
                   <div class="carousel-item" >
                     <img src="{{url('images/third.jpg')}}" class="d-block w-100" alt="..."style=" height: 400px;">
