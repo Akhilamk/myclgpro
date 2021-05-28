@@ -22,4 +22,6 @@ Route::view('college','copyclg');
 Route::view('','brilliance');
 Route::view('calc','calculator');
 Route::view('design','headfoot');
+Route::view('staff','staffregister');
+
 
