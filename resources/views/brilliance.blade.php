@@ -7,7 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+<style>
+  .dropdown-item{
+    font-style: italic;
+  }
+</style>
     <title>Welcome to Brilliance</title>
   </head>
   <body>
@@ -15,9 +19,9 @@
      <!-- <top section> -->
        <div class="row">
            <div class="col-lg-4 col-sm-12 col-xs-12 col-md-12" style="height: 90px; background-color: white;"><img src="{{url('images/brillions.png')}}" style="height:60px; margin-top: 10px; margin-left: 50px; " alt=""><img src="{{url('images/grad.jpg')}}" alt="" style="height: 40px;"></div>
-           <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12 " style="height: 90px; background-color:white;"><img src="{{url('images/emaillogo.png')}}" style="margin-top: 20px; height: 15px;" alt="">&nbsp;&nbsp;&nbsp;<b style="font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 100px;">Email</b> <br><span style="color: rgb(24, 24, 27); margin-left: 30px;font-family: Georgia, 'Times New Roman', Times, serif;">Youremail@gmail.com</span> </div>
+           <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12 " style="height: 90px; background-color:white;"><img src="{{url('images/emaillogo.png')}}" style="margin-top: 20px; height: 15px;" alt="">&nbsp;&nbsp;&nbsp;<b style="font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 100px;">Email</b> <br><span style="color: rgb(24, 24, 27); margin-left: 30px;font-family: Georgia, 'Times New Roman', Times, serif;">Your email@gmail.com</span> </div>
            <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12 " style="height: 90px; background-color: white;"><img src="{{url('images/calllogo.png')}}" style="margin-top: 20px; height: 20px;" alt="">&nbsp;&nbsp;&nbsp;<b style="font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 100px;">Call</b> <br><span style="color: rgb(24, 24, 27); margin-left: 30px;"><span style="font-family: Georgia, 'Times New Roman', Times, serif;">Call Us:</span> 7845768672</span></div>
-           <div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 " style="height: 90px; background-color: white;"><button class="btn btn-lg btn-primary" style="margin-top: 20px; height: 35px; background-color: rgb(245, 92, 37); font-size: small; border: none; margin-left: 50px;">Apply Now</button></div>
+           <div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 d-none d-lg-block " style="height: 90px; background-color: white;"><button class="btn btn-lg btn-primary" style="margin-top: 25px; height: 35px; background-color: rgb(245, 92, 37); font-size: small; border: none; margin-left: 50px;">Apply Now</button></div>
            
        </div><!-- //<closing top section> -->
 
@@ -30,7 +34,11 @@
           <form action="#" class="searchform order-lg-last">
           <div class="form-group d-flex">
           <input type="text" class="form-control pl-3" placeholder="Search" style="margin-right: 8px; border-radius: 15px;">
-          <button class="bi bi-search" style="background-color: rgb(245, 92, 37);">Go</button>
+          <button class="bi bi-search" style="background-color: rgb(245, 92, 37);">Go</button>&nbsp;&nbsp;&nbsp;&nbsp;
+         <div><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-person-fill" viewBox="0 0 16 16">
+          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+        </svg></div>
+          <button class="btn btn-link"><b style="color: azure;">Login</b></button>
           <!-- <button type="submit" placeholder="" class="fa fa-search"><span class="ion-ios-search"></span></button> -->
           </div>
           </form>
@@ -40,36 +48,37 @@
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <b>Courses</b></a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Course List</a>
-              <a class="dropdown-item" href="#">Course with image</a>
-              <a class="dropdown-item" href="#">Course with video</a>
+              <a class="dropdown-item" href="#">BCA</a>
+              <a class="dropdown-item" href="#">BSC.CS</a>
+              <a class="dropdown-item" href="#">BA.English</a>
+              <a class="dropdown-item" href="#">BBA</a>
+              <a class="dropdown-item" href="#">Bcom Finance</a>
+              <a class="dropdown-item" href="#">Bcom.CA</a>
               <div class="dropdown-divider"></div>
             </div>
           </li>
+          
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <b>News</b></a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">News List</a>
-              <a class="dropdown-item" href="#">images</a>
+              <a class="dropdown-item" href="#">Latest Newses</a>
+              <a class="dropdown-item" href="#">Online Courses</a>
               <a class="dropdown-item" href="#"> videos</a>
               <div class="dropdown-divider"></div>
             </div>
           </li>
           <li class="nav-item active"><a href="teacher.html" class="nav-link"> <b>Events</b></a></li>
           <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <b>Pages</b></a>
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <b>About Us</b></a>
             <div class="dropdown-menu active">
-              <a class="dropdown-item" href="#">About</a>
-              <a class="dropdown-item" href="#">Jobs</a>
               <a class="dropdown-item" href="#"> Gallery</a>
-              <a class="dropdown-item" href="#"> Online classes</a>
-              <a class="dropdown-item" href="#"> Time Table</a>
               <a class="dropdown-item" href="#"> Faqulty</a>
+              <a class="dropdown-item" href="#"> Recruitment</a>
               <a class="dropdown-item" href="#"> Terms & Conditions</a>
               <div class="dropdown-divider"></div>
             </div>
           </li>
-          <li class="nav-item active"><a href="contact.html" class="nav-link"> <b>Contact</b></a></li>
+          
           </ul>
           </div>
           </div>
@@ -118,6 +127,7 @@
                 <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quasi natus nulla! Dolores magnam veritatis cum dolorem consequuntur provident officiis dicta ipsam quas, voluptatem voluptate nisi asperiores aspernatur quo beatae!</p>
                </div>
              </div>
+             
                </div> <!-- <closing conatainer> -->
 
                

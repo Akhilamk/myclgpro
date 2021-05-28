@@ -19,5 +19,7 @@ Route::get('/', function () {
 });
 Route::view('mycollege','college');
 Route::view('college','copyclg');
-Route::view('mycollege','brilliance');
+Route::view('','brilliance');
 Route::view('calc','calculator');
+Route::view('design','headfoot');
+
