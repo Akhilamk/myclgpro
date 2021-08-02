@@ -1,183 +1,198 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
- <link rel="stylesheet" href="{{url('style.css')}}">
- 
-    <title>Welcome to E-learning</title>
-  </head>
-  <body>
-   <div class="container-fluid">
-     <!-- <topsection of the page> -->
-    <div class="row">
-       <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  " style="height: 50px; background-color: rgb(34, 34, 104);">
-          <div style="display:flex;flex-wrap:wrap"><a href="true" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:32px;height:32px;padding:2px;margin:5px;color:#e5e1e8;border-radius:50%;background-color:#052d59;"><svg class="niftybutton-facebook" style="display:block;fill:currentColor" data-tag="fac" data-name="Facebook" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
-            <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
-        </svg></a>
-        <!-- <twitter> -->
-        <div style="display:flex;flex-wrap:wrap"><a href="true" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:32px;height:32px;padding:2px;margin:5px;color:#dcd0e6;border-radius:50%;background-color:#052d59;"><svg class="niftybutton-twitter" style="display:block;fill:currentColor" data-tag="twi" data-name="Twitter" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
-          <path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"></path>
-      </svg></a>
-      <!-- <insta> -->
-      <div style="display:flex;flex-wrap:wrap"><a href="true" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:32px;height:32px;padding:2px;margin:5px;color:#dcd0e6;border-radius:50%;background-color:#052d59;"><svg class="niftybutton-instagram" style="display:block;fill:currentColor" data-tag="ins" data-name="Instagram" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
-        <path d="M256 109.3c47.8 0 53.4 0.2 72.3 1 17.4 0.8 26.9 3.7 33.2 6.2 8.4 3.2 14.3 7.1 20.6 13.4 6.3 6.3 10.1 12.2 13.4 20.6 2.5 6.3 5.4 15.8 6.2 33.2 0.9 18.9 1 24.5 1 72.3s-0.2 53.4-1 72.3c-0.8 17.4-3.7 26.9-6.2 33.2 -3.2 8.4-7.1 14.3-13.4 20.6 -6.3 6.3-12.2 10.1-20.6 13.4 -6.3 2.5-15.8 5.4-33.2 6.2 -18.9 0.9-24.5 1-72.3 1s-53.4-0.2-72.3-1c-17.4-0.8-26.9-3.7-33.2-6.2 -8.4-3.2-14.3-7.1-20.6-13.4 -6.3-6.3-10.1-12.2-13.4-20.6 -2.5-6.3-5.4-15.8-6.2-33.2 -0.9-18.9-1-24.5-1-72.3s0.2-53.4 1-72.3c0.8-17.4 3.7-26.9 6.2-33.2 3.2-8.4 7.1-14.3 13.4-20.6 6.3-6.3 12.2-10.1 20.6-13.4 6.3-2.5 15.8-5.4 33.2-6.2C202.6 109.5 208.2 109.3 256 109.3M256 77.1c-48.6 0-54.7 0.2-73.8 1.1 -19 0.9-32.1 3.9-43.4 8.3 -11.8 4.6-21.7 10.7-31.7 20.6 -9.9 9.9-16.1 19.9-20.6 31.7 -4.4 11.4-7.4 24.4-8.3 43.4 -0.9 19.1-1.1 25.2-1.1 73.8 0 48.6 0.2 54.7 1.1 73.8 0.9 19 3.9 32.1 8.3 43.4 4.6 11.8 10.7 21.7 20.6 31.7 9.9 9.9 19.9 16.1 31.7 20.6 11.4 4.4 24.4 7.4 43.4 8.3 19.1 0.9 25.2 1.1 73.8 1.1s54.7-0.2 73.8-1.1c19-0.9 32.1-3.9 43.4-8.3 11.8-4.6 21.7-10.7 31.7-20.6 9.9-9.9 16.1-19.9 20.6-31.7 4.4-11.4 7.4-24.4 8.3-43.4 0.9-19.1 1.1-25.2 1.1-73.8s-0.2-54.7-1.1-73.8c-0.9-19-3.9-32.1-8.3-43.4 -4.6-11.8-10.7-21.7-20.6-31.7 -9.9-9.9-19.9-16.1-31.7-20.6 -11.4-4.4-24.4-7.4-43.4-8.3C310.7 77.3 304.6 77.1 256 77.1L256 77.1z"></path>
-        <path d="M256 164.1c-50.7 0-91.9 41.1-91.9 91.9s41.1 91.9 91.9 91.9 91.9-41.1 91.9-91.9S306.7 164.1 256 164.1zM256 315.6c-32.9 0-59.6-26.7-59.6-59.6s26.7-59.6 59.6-59.6 59.6 26.7 59.6 59.6S288.9 315.6 256 315.6z"></path>
-        <circle cx="351.5" cy="160.5" r="21.5"></circle>
-    </svg></a><a href=""></a>
-    <!-- <search the site> -->
-      <div class="form-group" style="margin-left: 800px; width: 250px;" >
-        <input type="text" style="height: 30px; margin-top: 15px; color: rgb(231, 230, 223);"  class="form-control" placeholder="Search the site...">
-    </div>&nbsp;
-    <button type="submit" class="btn btn-primary btn-sm" style="color: white; width: 40px; height: 30px; margin-top: 14px; background-color: rgb(47, 119, 212);">Go</button>
-
-  </div>
-    </div>
-      </div>
+    <style>
+        .dropdown-item {
+            font-style: italic;
+        }
         
+        .list-unstyled {
+            font-size: smaller;
+            font-style: oblique;
+            margin-left: 80px;
+            padding-top: 1px;
+        }
+        
+        h4 {
+            margin-top: 30px;
+            margin-left: 100px;
+        }
+        
+        .p1 {
+            color: aliceblue;
+            margin-left: 60px;
+        }
+    </style>
+    <title>Welcome to Brilliance</title>
+</head>
 
-  </div>
-     </div>
-  
-     
-     <!-- <next section> -->
-       <div class="row">
-           <div class="col-lg-7 col-sm-12 col-md-12 col-xs-12 " style="height: 70px; background-color: white;" > &nbsp;<b>BRILLIANCE<img src="{{url('images/clglog.jpg')}}" alt="" height="60px"  style="padding-left: 10px; margin-top: 3px;">&nbsp;&nbsp;ACADEMY</b></div>
-           <div class="col-lg-5 col-sm-12 col-md-12 col-xs-12 d-none d-lg-block" style="height: 70px; background-color: white;" ><button class="btn btn-light" style="margin-top: 20px; margin-left: 350px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: small;"><b>Register/Login</b> </button> </div>
-          </div>
-          <!-- <third section Navbar> -->
-           <div class="row">
-             <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12"  style="height: 60px; background-color: rgb(233, 235, 230);">
-              <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="background-image: linear-gradient(rgb(99, 147, 236),rgb(76, 121, 204));">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                  <li class="nav-item ">
-                    <a class="nav-link" href="#"><b style="font-family:cursive; color: cornsilk;">HOME</b></a>
-                  </li>
-                  <!-- <dropdwnmen course> -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-1"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b style="font-family: cursive; color: cornsilk ">COURSES</b></a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="courses.html">Course List</a>
-                        <a class="dropdown-item" href="course-1.html"> </a>
-                        <a class="dropdown-item" href="course-2.html"></a>                
+<body>
+    <div class="container-fluid">
+        <!-- <top section> -->
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 col-xs-12 col-md-12" style="height: 90px; background-color: white;"><img src="{{url('images/brillions.png')}}" style="height:60px; margin-top: 10px; margin-left: 50px; " alt=""><img src="{{url('images/grad.jpg')}}" alt="" style="height: 40px;"></div>
+            <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12 " style="height: 90px; background-color:white;"><img src="{{url('images/emaillogo.png')}}" style="margin-top: 20px; height: 15px;" alt="">&nbsp;&nbsp;&nbsp;<b style="font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 100px;">Email</b> <br><span style="color: rgb(24, 24, 27); margin-left: 30px;font-family: Georgia, 'Times New Roman', Times, serif;">Brilliance@gmail.com</span>                </div>
+            <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12 " style="height: 90px; background-color: white;"><img src="{{url('images/calllogo.png')}}" style="margin-top: 20px; height: 20px;" alt="">&nbsp;&nbsp;&nbsp;<b style="font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 100px;">Call</b> <br><span style="color: rgb(24, 24, 27); margin-left: 30px;"><span style="font-family: Georgia, 'Times New Roman', Times, serif;">Call Us:</span>                7845768672</span>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 d-none d-lg-block " style="height: 90px; background-color: white;"><button class="btn btn-lg btn-primary" style="margin-top: 25px; height: 35px; background-color: rgb(245, 92, 37); font-size: small; border: none; margin-left: 50px;">Apply Now</button></div>
+
+        </div>
+        <!-- //<closing top section> -->
+
+        <!-- < navbar opening> -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar" style="background-image: linear-gradient(rgb(6, 6, 51),rgb(7, 7, 58));">
+            <div class="container d-flex align-items-center px-4">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="width: 70px;height: 40px; color: orangered;">Menu
+          <!-- <span class="oi oi-menu"></span> Menu -->
+          </button>
+                <form action="#" class="searchform order-lg-last">
+                    <div class="form-group d-flex">
+                        <input type="text" class="form-control pl-3" placeholder="Search" style="margin-right: 8px; border-radius: 15px;">
+                        <button class="bi bi-search" style="background-color: rgb(245, 92, 37);">Go</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-person-fill" viewBox="0 0 16 16">
+          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+        </svg></div>
+                        <button class="btn btn-link"><b style="color: azure;">Login</b></button>
+                        <!-- <button type="submit" placeholder="" class="fa fa-search"><span class="ion-ios-search"></span></button> -->
                     </div>
-                </li><!--//dropdown-menu-->
+                </form>
+                <div class="collapse navbar-collapse" id="ftco-nav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a href="index.html" class="nav-link pl-0"><b>Home </b></a></li>
+                        <li class="nav-item active"><a href="" class="nav-link pl-0"><b>Courses </b></a></li>
+                        <li class="nav-item active">
+                            <a href="" class="nav-link"> <b>Events</b></a>
+                        </li>
 
-                <!-- <dropdwnmen news> -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b style="font-family: cursive; color: cornsilk;">NEWS</b>  <i class="fas fa-angle-down"></i></a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
-                      <a class="dropdown-item" href="news.html">News List</a>
-                      <a class="dropdown-item" href="news-1.html"> </a>   
-                      <a class="dropdown-item" href="news-2.html"></a>         
-                  </div>
-              </li><!--//dropdown-menu-->
-                  
-                  <li class="nav-item ">
-                    <a class="nav-link" href="#"><b style="font-family:cursive;color: cornsilk">EVENTS</b></a>
-                  </li>
-                   <!-- <dropdwnmen pages> -->
-                 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#"><b style="font-family: cursive;color: cornsilk;">PAGES</b>  <i class="fas fa-angle-down"></i></a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="about.html">About</a>
-                            <a class="dropdown-item" href="jobs.html">Jobs</a>                           
-                            <a class="dropdown-item" href="gallery.html">Gallery (3 columns)</a>
-                            <a class="dropdown-item" href="gallery-album.html">Single Gallery</a>               
-                            <a class="dropdown-item" href="faq.html">FAQULTY</a>                                
-                            <a class="dropdown-item" href="privacy.html">Privacy Policy</a> 
-                            <a class="dropdown-item" href="terms-and-conditions.html">Terms & Conditions</a>                   
-                        </div><!--//dropdown-menu-->
-                    </li><!--//dropdown-->
-                     <!--//dropdown-menu-->
-                  <li class="nav-item ">
-                    <a class="nav-link" href="#"><b style="font-family:cursive;color: cornsilk">CONTACT</b></a>
-                  </li>
-                   </ul>
-                  
-              </div>
-              
-            </nav>
-          </div>
-          
-           </div>
-        <!-- <third section slider image> -->
-           <div class="row">
-             <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" style="height: 500px; background-color: rgb(233, 235, 230);">
-              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-              </ol>
-            
-              <div class="carousel-inner">
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <b>News</b></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Latest Newses</a>
+                                <a class="dropdown-item" href="#">Online Courses</a>
+                                <a class="dropdown-item" href="#"> videos</a>
+                                <div class="dropdown-divider"></div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <b>About Us</b></a>
+                            <div class="dropdown-menu active">
+                                <a class="dropdown-item" href="#"> Gallery</a>
+                                <a class="dropdown-item" href="#"> Faqulty</a>
+                                <a class="dropdown-item" href="#"> Recruitment</a>
+                                <a class="dropdown-item" href="#"> Terms & Conditions</a>
+                                <div class="dropdown-divider"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+        <!-- //<closing navbar div> -->
+        <!-- <opening carousel div> -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="{{url('images/home1.png')}}" class="d-block w-100" alt="..." style="height: 500px; width: 300px;">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h1 style= "font-family: cursive; color: black; border-color: darkblue;">All the courses you need</h1>
-                    <p style= "color: black; font-family: cursive; padding-bottom: 300px; font-size: x-large; " ><b>Welcome to Brilliance Academy...</b> </p>
-                  </div>
+                    <img src="{{url('images/web1.jpg')}}" class="d-block w-100" alt="..." style="  height: 400px;">
                 </div>
                 <div class="carousel-item">
-                  <img src="{{url('images/web.jpeg')}}" class="d-block w-100" alt="..."style="height: 500px; width: 300;">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: blanchedalmond; padding-bottom: 380px;">We Ensure better education for a better world</h1>
-                    
-                  </div>
+                    <img src="{{url('images/cover.jpg')}}" class="d-block w-100" alt="..." style=" height: 400px;">
                 </div>
                 <div class="carousel-item">
-                  <img src="{{url('images/hom4.jpg')}}" class="d-block w-100" alt="..."style="height: 500px; width: 300px;">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h2 style="font-family: cursive; padding-left: 600PX; padding-bottom: 80PX;">EDUCATION AT IT'S BEST</h2><BR></BR>
-                    
-                  </div>
+                    <img src="{{url('images/third.jpg')}}" class="d-block w-100" alt="..." style=" height: 400px;">
                 </div>
                 <div class="carousel-item">
-                  <img src="{{url('images/hom3.png')}}" class="d-block w-100" alt="..."style="height: 500px; width: 300;">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5 style="font-family: cursive; margin-top: 90px;">EXPLORE THE WORLD OF OUR GRADUATES</h5> </BR>
-                    <p style="font-family: cursive;">We develop pioneering leaders & Technologies for the digital age </p>
-                  </div>
+                    <img src="{{url('images/fourth.jpg')}}" class="d-block w-100" alt="..." style=" height: 400px;">
                 </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-              </a>
-           </div><br>
-
-         </div>
-           
-   </div><br>
-   <div class="content container">
-   <section class="p-3 mb-2 bg-secondary text-white" style="height: 150px; width: 1100px; text-align: justify; ">     
-    <div class="row">    
-        <div class="col-lg-9 col-sm-12 col-md-12 col-xs-12">
-        <h1 class="section-heading" style="font-family: monospace;">Why Brilliance</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos quidem odio similique at libero, fuga vel minus sit ipsam dignissimos rerum enim quis dolorum eveniet beatae maiores odit quo!</p>   
-        </div>  
-        <div class="col-lg-3 col-sm-12 col-md-12 col-xs-12" style="margin-top: 50px;">
-            <a class="btn btn-primary btn-lg" href="#"><b style="color: rgb(174, 178, 184); font-size: small;">Apply Now</b> </a>  
+            </a>
         </div>
-    </div><!--//row-->
-  </section><!--//promo-->
 
-</div>
-   </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12" style="height: 300px; background-color: rgb(121, 186, 247);">
+
+                <h3 class="heading" style="text-align: center; margin-top: 20px; font-family: fantasy;"><img src="{{url('images/edulogo.png')}}" style="width: 40px;" alt=""><br><br> Special Education</h3>
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nesciunt ea autem suscipit in explicabo repudiandae provident, omnis ratione fugiat, praesentium ipsum. Facere itaque odit quos? Cum tempora unde perferendis.</p>
+
+            </div>
+            <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12" style="height: 300px; background-color: rgb(143, 153, 155);">
+                <h3 class="heading" style="text-align: center; margin-top: 20px; font-family: fantasy;"><img src="{{url('images/tea.png')}}" style="width: 40px;" alt=""><br><br> Certified Teachers</h3>
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex optio animi, corporis accusantium voluptatum possimus eveniet ducimus autem laboriosam expedita eligendi dolore atque rem reprehenderit voluptates velit omnis nihil soluta.</p>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12" style="height: 300px; background-color: rgb(121, 186, 247);">
+                <h3 class="heading" style="text-align: center; margin-top: 20px; font-family: fantasy;"><img src="{{url('images/libru.png')}}" style="width: 40px;" alt=""><br><br> Books & Library</h3>
+                <p style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non maiores autem possimus debitis dicta voluptatum sapiente excepturi blanditiis corrupti voluptatibus, voluptas id, aliquam obcaecati aperiam optio eaque, itaque quos exercitationem.</p>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12" style="height: 300px; background-color: rgb(143, 153, 155);">
+                <h3 class="heading" style="text-align: center; margin-top: 20px; font-family: fantasy;"><img src="{{url('images/academic.png')}}" style="width: 40px;" alt=""><br><br> Academic Activities</h3>
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quasi natus nulla! Dolores magnam veritatis cum dolorem consequuntur provident officiis dicta ipsam quas, voluptatem voluptate nisi asperiores aspernatur quo beatae!</p>
+            </div>
+        </div>
+
+        <!-- ///// opening footer//////// -->
+        <footer>
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-xs-12 col-md-12" style="height: 200px; background-color: rgb(68, 62, 62); align-content: center;">
+                    <h4 style="color: white;">Links</h4><br>
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="color: azure;"><span class="ion-ios-arrow-round-forward mr-2"></span> -> Home</a></li>
+                        <li><a href="#" style="color: azure;"><span class="ion-ios-arrow-round-forward mr-2"></span>-> About Us</a></li>
+                        <li><a href="#" style="color: azure;"><span class="ion-ios-arrow-round-forward mr-2"></span>-> Services</a></li>
+                        <li><a href="#" style="color: azure;"><span class="ion-ios-arrow-round-forward mr-2"></span>-> Departments</a></li>
+                        <li><a href="#" style="color: azure;"><span class="ion-ios-arrow-round-forward mr-2"></span>-> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-xs-12 col-md-12" style="height: 200px; background-color: rgb(68, 62, 62);">
+                    <h4 style="color: white; ">Connect With Us</h4><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-youtube" viewBox="0 0 16 16">
+                  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                </svg>
+
+                </div>
+                <div class="col-lg-4 col-sm-12 col-xs-12 col-md-12" style="height: 200px; background-color: rgb(68, 62, 62);">
+                    <h4 style="color: white; ">Contact Us</h4><br>
+                    <p class="p1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                </svg>&nbsp;&nbsp;Brilliance@gmail.com</p>
+                    <p class="p1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-telephone" viewBox="0 0 16 16">
+  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg> &nbsp;Call Us : 7845768672</p>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+    <!-- <closing conatainer> -->
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -191,5 +206,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>

@@ -19,9 +19,19 @@ Route::get('/', function () {
 });
 Route::view('mycollege','college');
 Route::view('college','copyclg');
-Route::view('','brilliance');
-Route::view('calc','calculator');
+
+//project Routes//
+Route::view('/', 'brilliance');
 Route::view('design','headfoot');
-Route::view('staff','staffregister');
-
-
+Route::view('staffregister','staffregister');
+Route::view('adminstaffprofile','adstafprofile');
+Route::view('admincoursedetails','adcourse');
+Route::view('registerbutton','registerbutton');
+Route::view('events','event');
+Route::view('course','courses');
+Route::view('gallery','gallery');
+Route::view('faqulties','faqulty');
+Route::view('recruit','recruit');
+Route::view('terms','terms&con');
+Route::view('staffdash','staffdashboard');
+Route::view('staffdashprofile','staffdashprofile');
